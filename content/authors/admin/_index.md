@@ -4,44 +4,41 @@ authors:
 bio: My research interests include distributed robotics, mobile computing and programmable matter.
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
+  - course: PhD in Statistical Physics
+    institution: Federal University of Santa Catarina, Brazil
+    year: 2018
+  - course: M.A. in Astrophysics
+    institution: Federal University of Santa Catarina, Brazil
+    year: 2014
+  - course: BSc in Physics
+    institution: Federal University of Santa Catarina, Brazil
     year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
 email: ""
-interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
 organizations:
-- name: Stanford University
-  url: ""
-role: Professor of Artificial Intelligence
+- name: Meantrix
+  url: "https://meantrix.com/"
+- name: Nohs Somos
+  url: "https://www.nohssomos.com.br/"
+role: Data Scientist
 social:
 - icon: envelope
   icon_pack: fas
-  link: '#contact'
-- icon: twitter
+  link: 'mailto:gerbortolotto@gmail.com'
+- icon: linkedin
   icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
-- icon: google-scholar
-  icon_pack: ai
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  link: https://www.linkedin.com/in/gerbortolotto/
 - icon: github
   icon_pack: fab
-  link: https://github.com/gcushen
+  link: https://github.com/gbortolotto
+- icon: twitter
+  icon_pack: fab
+  link: https://twitter.com/gerbortolotto
+- icon: instagram
+  icon_pack: fab
+  link: https://instagram.com/gerbortolotto
+- icon: google-scholar
+  icon_pack: ai
+  link: https://scholar.google.com.br/citations?user=graq2v8AAAAJ&hl=en
 superuser: true
-title: Nelson Bighetti
-user_groups:
-- Researchers
-- Visitors
+title: Germano Bortolotto
 ---
-
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.

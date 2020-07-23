@@ -6,7 +6,7 @@ google_fonts = "Open+Sans:400,400i|Raleway:400,700|Roboto+Mono"
 
 # Font families
 heading_font = "Open Sans"
-body_font = "Raleway"
+body_font = "Open Sans Light"
 nav_font = "Open Sans"
 mono_font = "Roboto Mono"
 
