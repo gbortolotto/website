@@ -2,11 +2,11 @@
 name = "germano"
 
 # Optional Google font URL
-google_fonts = "Open+Sans:400,400i|Raleway:400,700|Roboto+Mono"
+google_fonts = "Open+Sans:400,400i|Raleway:400,700|Roboto+Mono|Nunito:wght@300|Roboto+Light|Roboto"
 
 # Font families
 heading_font = "Open Sans"
-body_font = "Open Sans Light"
+body_font = "Roboto Light"
 nav_font = "Open Sans"
 mono_font = "Roboto Mono"
 

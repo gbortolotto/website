@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jheniffer J. Gonçalves | Germano Bortolotto</title>
+    <link>/author/jheniffer-j.-goncalves/</link>
+      <atom:link href="/author/jheniffer-j.-goncalves/index.xml" rel="self" type="application/rss+xml" />
+    <description>Jheniffer J. Gonçalves</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 30 Mar 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Jheniffer J. Gonçalves</title>
+      <link>/author/jheniffer-j.-goncalves/</link>
+    </image>
+    
+    <item>
+      <title>Phase diagrams and dynamics of a computationally efficient map-based neuron model</title>
+      <link>/publication/ktz-model/</link>
+      <pubDate>Thu, 30 Mar 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/ktz-model/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Griffiths phase and long-range correlations in a biologically motivated visual cortex model</title>
+      <link>/publication/griffiths-phase-another-copy/</link>
+      <pubDate>Wed, 20 Jul 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/griffiths-phase-another-copy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Griffiths phase and long-range correlations in a biologically motivated visual cortex model</title>
+      <link>/publication/griffiths-phase-copy/</link>
+      <pubDate>Wed, 20 Jul 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/griffiths-phase-copy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Griffiths phase and long-range correlations in a biologically motivated visual cortex model</title>
+      <link>/publication/griffiths-phase/</link>
+      <pubDate>Wed, 20 Jul 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/griffiths-phase/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Information processing occurs via critical avalanches in a model of the primary visual cortex</title>
+      <link>/publication/information-processing/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/information-processing/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
