@@ -1,6 +1,6 @@
 ---
 date: "2020-06-21T00:00:00Z"
-external_link: https://gerbortolotto.shinyapps.io/denuncialgbt/"
+external_link: https://gerbortolotto.shinyapps.io/denuncialgbt/
 image:
   caption: app interface
   focal_point: Smart
