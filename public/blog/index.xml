@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Germano Bortolotto</title>
+    <title>Blog | Germano Bortolotto</title>
     <link>/blog/</link>
       <atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
-    <description>Germano Bortolotto</description>
+    <description>Blog</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 28 Jun 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
-      <title>Germano Bortolotto</title>
+      <title>Blog</title>
       <link>/blog/</link>
     </image>
     
@@ -44,10 +44,10 @@
     </item>
     
     <item>
-      <title>Brazilian LGBT complaints in the past decade</title>
-      <link>/blog/lgbt-app/</link>
+      <title>Textrecipes series: Feature Hashing</title>
+      <link>/blog/lgbt-app-post/</link>
       <pubDate>Sun, 21 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>/blog/lgbt-app/</guid>
+      <guid>/blog/lgbt-app-post/</guid>
       <description>
 
 

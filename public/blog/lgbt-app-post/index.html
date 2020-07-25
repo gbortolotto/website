@@ -27,7 +27,7 @@
   
     
   
-  <meta name="description" content="I finally decided to start writing on this website. It was something I wanted for a long time, but always delayed for multiple reasons. The start of the Coronavirus pandemic didn&rsquo;t help at all&hellip; :-)">
+  <meta name="description" content="I finally decided to start writing on this website. It was something I wanted for a long time, but always delayed for multiple reasons. The start of the Coronavirus pandemic didn’t help at all… :-)">
 
   
   <link rel="alternate" hreflang="en-us" href="/blog/lgbt-app-post/">
@@ -239,8 +239,8 @@
   
   <meta property="og:site_name" content="Germano Bortolotto">
   <meta property="og:url" content="/blog/lgbt-app-post/">
-  <meta property="og:title" content="Brazilian LGBT complaints in the past decade | Germano Bortolotto">
-  <meta property="og:description" content="I finally decided to start writing on this website. It was something I wanted for a long time, but always delayed for multiple reasons. The start of the Coronavirus pandemic didn&rsquo;t help at all&hellip; :-)"><meta property="og:image" content="/blog/lgbt-app-post/featured.png">
+  <meta property="og:title" content="Textrecipes series: Feature Hashing | Germano Bortolotto">
+  <meta property="og:description" content="I finally decided to start writing on this website. It was something I wanted for a long time, but always delayed for multiple reasons. The start of the Coronavirus pandemic didn’t help at all… :-)"><meta property="og:image" content="/blog/lgbt-app-post/featured.png">
   <meta property="twitter:image" content="/blog/lgbt-app-post/featured.png"><meta property="og:locale" content="en-us">
   
     
@@ -265,7 +265,7 @@
 
 
 
-  <title>Brazilian LGBT complaints in the past decade | Germano Bortolotto</title>
+  <title>Textrecipes series: Feature Hashing | Germano Bortolotto</title>
 
 </head>
 <body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
@@ -472,10 +472,8 @@
   
   
 <div class="article-container pt-3">
-  <h1>Brazilian LGBT complaints in the past decade</h1>
+  <h1>Textrecipes series: Feature Hashing</h1>
 
-  
-  <p class="page-subtitle">An app based on &lsquo;Disque Denúncia&rsquo; database</p>
   
 
   
@@ -509,7 +507,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-categories">
-    <i class="fas fa-folder mr-1"></i><a href="/category/shiny/">shiny</a>, <a href="/category/lgbt/">lgbt</a></span>
+    <i class="fas fa-folder mr-1"></i><a href="/category/tidymodels/">tidymodels</a>, <a href="/category/textrecipes/">textrecipes</a>, <a href="/category/textrecipes-series/">textrecipes series</a>, <a href="/category/tidytuesday/">tidytuesday</a></span>
   
 
 </div>
@@ -537,38 +535,33 @@
   <div class="article-container">
 
     <div class="article-style">
-      <p>I finally decided to start writing on this website. It was something I wanted for a long time, but always delayed for multiple reasons. The start of the Coronavirus pandemic didn&rsquo;t help at all&hellip; :-)</p>
+      
+
+
+<p>I finally decided to start writing on this website. It was something I wanted for a long time, but always delayed for multiple reasons. The start of the Coronavirus pandemic didn’t help at all… :-)</p>
 <p>I hope to write every week about different subjects. Most of the posts will probably be some tutorials on Python, R, data science and software development as those are the things that keep me busy during the week. However, I might also write about human rights, education and research topics on neuroscience and physics.</p>
 <p>For this first post I will present a small app I have been developing in the past few weeks.</p>
-<p>In the beginning of this year I looked for data and information involving crimes against LGBT people in Brazil. It is said that we have one of the highest crime rates in the world<sup>
-<a href="#References">1</a></sup>, but I wanted to see the raw data and maybe try to have some insights when studying time series and correlated events on this subject.</p>
-<p>I tried to contact some people from 
-<a href="https://grupogaydabahia.com.br/" target="_blank" rel="noopener">Grupo Gay da Bahia</a> but I have never received an answer. I talked to some friends and learned that crimes against LGBT people are rarely registered in official documents in a regular manner. I ended up rummaging the federal government website, notably the &ldquo;Ministry of Family and Human Rights&rdquo; but found only their promises of providing updated and open access data on human rights in Brazil. In a page that is no longer accessible, it is said that strategies to be adopted for the opening, support, monitoring and promotion of their database would be produced with deadline for August 2019.</p>
-<p>In fact, I contacted them on February asking for an update on this issue (the deadline was past for about six months), but after two months of waiting they only said that &ldquo;all necessary information, schedules and databases to be used will soon be published&rdquo;. In other words: &ldquo;we have been working for almost a year and still don&rsquo;t have anything planned&rdquo;.</p>
-<p>Anyway, during my time clicking around the Ministry&rsquo;s website I found that at least SOME information is public. The Brazilian government provides a help line (called <strong>&ldquo;Disque Denúncia&rdquo;</strong> or **&ldquo;Disque Direitos Humanos&rdquo;**<sup>
-<a href="#References">2</a></sup>) so people can call and denounce domestic abuse, child and elderly maltreatment etc. Among the several profiles available, one can see calls coming from LGBT people. There is data from 2011 to 2019 (only partially, as this year&rsquo;s data covers only until June).</p>
-<p>I downloaded all data concerning LGBT people through 
-<a href="https://www.gov.br/mdh/pt-br/acesso-a-informacao/ouvidoria/balanco-disque-100" target="_blank" rel="noopener">this link</a>. The data tables are actually very complete, but all data is just the case counts in multiple categories (sex, age, location&hellip;). Because of this I was not able to get any insights from it, but I decided to organize it to make it easier for people to look at some trends.</p>
-<p>In order to do that, I developed a very simple <strong>Shiny</strong> application in <strong>R</strong>. You can see the result 
-<a href="https://gerbortolotto.shinyapps.io/denuncialgbt/" target="_blank" rel="noopener">here</a> (Portuguese only). Data is separated in tabs representing different complainant profiles. You can see how the cases increases or decreases for different Brazilian states in the past eight years.</p>
+<p>In the beginning of this year I looked for data and information involving crimes against LGBT people in Brazil. It is said that we have one of the highest crime rates in the world<sup><a href="#References">1</a></sup>, but I wanted to see the raw data and maybe try to have some insights when studying time series and correlated events on this subject.</p>
+<p>I tried to contact some people from <a href="https://grupogaydabahia.com.br/">Grupo Gay da Bahia</a> but I have never received an answer. I talked to some friends and learned that crimes against LGBT people are rarely registered in official documents in a regular manner. I ended up rummaging the federal government website, notably the “Ministry of Family and Human Rights” but found only their promises of providing updated and open access data on human rights in Brazil. In a page that is no longer accessible, it is said that strategies to be adopted for the opening, support, monitoring and promotion of their database would be produced with deadline for August 2019.</p>
+<p>In fact, I contacted them on February asking for an update on this issue (the deadline was past for about six months), but after two months of waiting they only said that “all necessary information, schedules and databases to be used will soon be published”. In other words: “we have been working for almost a year and still don’t have anything planned”.</p>
+<p>Anyway, during my time clicking around the Ministry’s website I found that at least SOME information is public. The Brazilian government provides a help line (called <strong>“Disque Denúncia”</strong> or <strong>“Disque Direitos Humanos”</strong><sup><a href="#References">2</a></sup>) so people can call and denounce domestic abuse, child and elderly maltreatment etc. Among the several profiles available, one can see calls coming from LGBT people. There is data from 2011 to 2019 (only partially, as this year’s data covers only until June).</p>
+<p>I downloaded all data concerning LGBT people through <a href="https://www.gov.br/mdh/pt-br/acesso-a-informacao/ouvidoria/balanco-disque-100">this link</a>. The data tables are actually very complete, but all data is just the case counts in multiple categories (sex, age, location…). Because of this I was not able to get any insights from it, but I decided to organize it to make it easier for people to look at some trends.</p>
+<p>In order to do that, I developed a very simple <strong>Shiny</strong> application in <strong>R</strong>. You can see the result <a href="https://gerbortolotto.shinyapps.io/denuncialgbt/">here</a> (Portuguese only). Data is separated in tabs representing different complainant profiles. You can see how the cases increases or decreases for different Brazilian states in the past eight years.</p>
 <div style="text-align:center;">
-  <a href="https://gerbortolotto.shinyapps.io/denuncialgbt/">
-    <img src="https://gbortolotto.github.io/img/denuncia_ex.png" alt="no css">
-  </a>
+<p><a href="https://gerbortolotto.shinyapps.io/denuncialgbt/">
+<img src="https://gbortolotto.github.io/img/denuncia_ex.png" alt="no css">
+</a></p>
 </div>
-<p>I thought I could update this application as new data was released. However, the Brazilian government changed how this information would be released. Their last report sum up the cases in 
-<a href="https://www.gov.br/mdh/pt-br/acesso-a-informacao/ouvidoria/Relatorio_Disque_100_2019_.pdf" target="_blank" rel="noopener">a pdf file</a> and one can&rsquo;t access the raw data as I did. If the government decides to releases open data, I will develop a new app and try to provide some kind of easily accessible platform. Until then and without new data I think this app will be just a snapshot of complaints made by LGBT people by middle 2019.</p>
-<p>All the data used in the development os this app can be found on my 
-<a href="https://github.com/gbortolotto/lgbtapp" target="_blank" rel="noopener">Github page</a> (the code needs some cleaning&hellip;) and only exists thanks to projects like 
-<a href="https://www.shinyapps.io/" target="_blank" rel="noopener">Shinyapps.io</a>.</p>
+<p>I thought I could update this application as new data was released. However, the Brazilian government changed how this information would be released. Their last report sum up the cases in <a href="https://www.gov.br/mdh/pt-br/acesso-a-informacao/ouvidoria/Relatorio_Disque_100_2019_.pdf">a pdf file</a> and one can’t access the raw data as I did. If the government decides to releases open data, I will develop a new app and try to provide some kind of easily accessible platform. Until then and without new data I think this app will be just a snapshot of complaints made by LGBT people by middle 2019.</p>
+<p>All the data used in the development os this app can be found on my <a href="https://github.com/gbortolotto/lgbtapp">Github page</a> (the code needs some cleaning…) and only exists thanks to projects like <a href="https://www.shinyapps.io/">Shinyapps.io</a>.</p>
 <p>P.S.: I intend to write in English in this website, but I will probably translate the posts about this app as it concerns primarily the Brazilian LGBT population.</p>
-<h2 id="references">References</h2>
-<ol>
-<li>
-<a href="https://en.wikipedia.org/wiki/LGBT_rights_in_Brazil#Anti-LGBT_violence" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/LGBT_rights_in_Brazil#Anti-LGBT_violence</a></li>
-<li>
-<a href="https://www.gov.br/mdh/pt-br/acesso-a-informacao/ouvidoria/balanco-disque-100" target="_blank" rel="noopener">https://www.gov.br/mdh/pt-br/acesso-a-informacao/ouvidoria/balanco-disque-100</a></li>
+<div id="references" class="section level2">
+<h2>References</h2>
+<ol style="list-style-type: decimal">
+<li><a href="https://en.wikipedia.org/wiki/LGBT_rights_in_Brazil#Anti-LGBT_violence">https://en.wikipedia.org/wiki/LGBT_rights_in_Brazil#Anti-LGBT_violence</a></li>
+<li><a href="https://www.gov.br/mdh/pt-br/acesso-a-informacao/ouvidoria/balanco-disque-100">https://www.gov.br/mdh/pt-br/acesso-a-informacao/ouvidoria/balanco-disque-100</a></li>
 </ol>
+</div>
 
     </div>
 
@@ -578,16 +571,6 @@
 
 
 
-
-<div class="article-tags">
-  
-  <a class="badge badge-light" href="/tag/lgbt/">lgbt</a>
-  
-  <a class="badge badge-light" href="/tag/shiny/">shiny</a>
-  
-  <a class="badge badge-light" href="/tag/r/">R</a>
-  
-</div>
 
 
 
@@ -602,7 +585,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=/blog/lgbt-app-post/&amp;text=Brazilian%20LGBT%20complaints%20in%20the%20past%20decade" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=/blog/lgbt-app-post/&amp;text=Textrecipes%20series:%20Feature%20Hashing" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -615,7 +598,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=/blog/lgbt-app-post/&amp;t=Brazilian%20LGBT%20complaints%20in%20the%20past%20decade" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=/blog/lgbt-app-post/&amp;t=Textrecipes%20series:%20Feature%20Hashing" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -628,7 +611,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Brazilian%20LGBT%20complaints%20in%20the%20past%20decade&amp;body=/blog/lgbt-app-post/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Textrecipes%20series:%20Feature%20Hashing&amp;body=/blog/lgbt-app-post/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -641,7 +624,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/blog/lgbt-app-post/&amp;title=Brazilian%20LGBT%20complaints%20in%20the%20past%20decade" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=/blog/lgbt-app-post/&amp;title=Textrecipes%20series:%20Feature%20Hashing" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -654,7 +637,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=Brazilian%20LGBT%20complaints%20in%20the%20past%20decade%20/blog/lgbt-app-post/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=Textrecipes%20series:%20Feature%20Hashing%20/blog/lgbt-app-post/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -667,7 +650,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=/blog/lgbt-app-post/&amp;title=Brazilian%20LGBT%20complaints%20in%20the%20past%20decade" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=/blog/lgbt-app-post/&amp;title=Textrecipes%20series:%20Feature%20Hashing" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>

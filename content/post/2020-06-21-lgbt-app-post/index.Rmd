@@ -2,7 +2,7 @@
 title: 'Brazilian LGBT complaints in the past decade'
 author: Germano Bortolotto
 date: '2020-06-21'
-slug: lgbt-app
+slug: lgbt-app-post
 categories:
   - shiny
   - lgbt
@@ -14,7 +14,6 @@ summary: "A Shiny app based on 'Disque Denúncia' database"
 image:
   preview_only: true
 ---
-
 
 I finally decided to start writing on this website. It was something I wanted for a long time, but always delayed for multiple reasons. The start of the Coronavirus pandemic didn't help at all... :-)
 
