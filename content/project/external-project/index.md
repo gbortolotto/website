@@ -1,11 +1,14 @@
 ---
-date: "2016-04-27T00:00:00Z"
-external_link: http://example.org
+date: "2020-06-21T00:00:00Z"
+external_link: https://gerbortolotto.shinyapps.io/denuncialgbt/"
 image:
-  caption: Photo by Toa Heftiba on Unsplash
+  caption: app interface
   focal_point: Smart
-summary: An example of linking directly to an external project website using `external_link`.
+summary: Brazilian LGBT complaints in the past decade; an app based on Disque Denúncia database
 tags:
-- Demo
-title: External Project
+- LGBT
+- shiny
+- R
+title: LGBT App
 ---
+

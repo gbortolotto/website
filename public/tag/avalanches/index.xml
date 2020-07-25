@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Avalanches | Germano Bortolotto</title>
+    <link>/tag/avalanches/</link>
+      <atom:link href="/tag/avalanches/index.xml" rel="self" type="application/rss+xml" />
+    <description>Avalanches</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 20 Jul 2014 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Avalanches</title>
+      <link>/tag/avalanches/</link>
+    </image>
+    
+    <item>
+      <title>Griffiths phase and long-range correlations in a biologically motivated visual cortex model</title>
+      <link>/publication/optimal-activity/</link>
+      <pubDate>Sun, 20 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>/publication/optimal-activity/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

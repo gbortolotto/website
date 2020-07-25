@@ -30,22 +30,6 @@
     
     <item>
       <title>Griffiths phase and long-range correlations in a biologically motivated visual cortex model</title>
-      <link>/publication/griffiths-phase-another-copy/</link>
-      <pubDate>Wed, 20 Jul 2016 00:00:00 +0000</pubDate>
-      <guid>/publication/griffiths-phase-another-copy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Griffiths phase and long-range correlations in a biologically motivated visual cortex model</title>
-      <link>/publication/griffiths-phase-copy/</link>
-      <pubDate>Wed, 20 Jul 2016 00:00:00 +0000</pubDate>
-      <guid>/publication/griffiths-phase-copy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Griffiths phase and long-range correlations in a biologically motivated visual cortex model</title>
       <link>/publication/griffiths-phase/</link>
       <pubDate>Wed, 20 Jul 2016 00:00:00 +0000</pubDate>
       <guid>/publication/griffiths-phase/</guid>
@@ -61,43 +45,19 @@
     </item>
     
     <item>
-      <title>An example journal article</title>
-      <link>/publication/journal/</link>
-      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
-      <guid>/publication/journal/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Supplementary notes can be added here, including 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <title>Griffiths phase and long-range correlations in a biologically motivated visual cortex model</title>
+      <link>/publication/optimal-activity/</link>
+      <pubDate>Sun, 20 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>/publication/optimal-activity/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>An example conference paper</title>
-      <link>/publication/conference-paper/</link>
-      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
-      <guid>/publication/conference-paper/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Supplementary notes can be added here, including 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <title>Extinction coefficients with an allsky camera</title>
+      <link>/publication/allsky-camera/</link>
+      <pubDate>Mon, 20 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>/publication/allsky-camera/</guid>
+      <description></description>
     </item>
     
   </channel>

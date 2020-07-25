@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Astronomical instrumentation | Germano Bortolotto</title>
+    <link>/tag/astronomical-instrumentation/</link>
+      <atom:link href="/tag/astronomical-instrumentation/index.xml" rel="self" type="application/rss+xml" />
+    <description>Astronomical instrumentation</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 20 Jan 2014 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Astronomical instrumentation</title>
+      <link>/tag/astronomical-instrumentation/</link>
+    </image>
+    
+    <item>
+      <title>Extinction coefficients with an allsky camera</title>
+      <link>/publication/allsky-camera/</link>
+      <pubDate>Mon, 20 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>/publication/allsky-camera/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
