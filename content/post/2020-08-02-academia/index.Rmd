@@ -12,7 +12,7 @@ tags:
   - tools
   - FORTRAN
 subtitle: ''
-summary: "When you realize you wasted some time during graduate school: there is much out there... Why don't open you yourself to it?"
+summary: "When you realize you wasted some time during graduate school: there is much out there... Why don't you open yourself to it?"
 featured: no
 image:
   caption: "<a href='https://www.freepik.com/vectors/christmas'>Christmas vector created by upklyak - www.freepik.com</a>"
