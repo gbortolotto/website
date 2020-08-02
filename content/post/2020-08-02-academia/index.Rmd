@@ -2,7 +2,7 @@
 title: "Academia X Outside world"
 author: Germano Bortolotto
 date: '2020-08-02'
-slug: alan-turing
+slug: academia-outside
 categories:
   - academia
   - tools
@@ -15,7 +15,7 @@ subtitle: ''
 summary: "When you realize you wasted some time during graduate school: there is much out there... Why don't you open yourself to it?"
 featured: no
 image:
-  caption: "<a href='https://www.freepik.com/vectors/christmas'>Christmas vector created by upklyak - www.freepik.com</a>"
+  caption: ""
   focal_point: ''
   preview_only: true
 projects: []
