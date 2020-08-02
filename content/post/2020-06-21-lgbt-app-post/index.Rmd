@@ -33,11 +33,7 @@ I downloaded all data concerning LGBT people through [this link](https://www.gov
 
 In order to do that, I developed a very simple **Shiny** application in **R**. You can see the result [here](https://gerbortolotto.shinyapps.io/denuncialgbt/) (Portuguese only). Data is separated in tabs representing different complainant profiles. You can see how the cases increases or decreases for different Brazilian states in the past eight years.
 
-<div style="text-align:center;">
-  <a href="https://gerbortolotto.shinyapps.io/denuncialgbt/">
-    <img src="https://gbortolotto.github.io/img/denuncia_ex.png" alt="no css">
-  </a>
-</div>
+![App's screenshot](featured.png)
 
 
 I thought I could update this application as new data was released. However, the Brazilian government changed how this information would be released. Their last report sum up the cases in [a pdf file](https://www.gov.br/mdh/pt-br/acesso-a-informacao/ouvidoria/Relatorio_Disque_100_2019_.pdf) and one can't access the raw data as I did. If the government decides to releases open data, I will develop a new app and try to provide some kind of easily accessible platform. Until then and without new data I think this app will be just a snapshot of complaints made by LGBT people by middle 2019.

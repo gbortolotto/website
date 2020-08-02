@@ -26,10 +26,9 @@ image:
 <p>Anyway, during my time clicking around the Ministry’s website I found that at least SOME information is public. The Brazilian government provides a help line (called <strong>“Disque Denúncia”</strong> or <strong>“Disque Direitos Humanos”</strong><sup><a href="#References">2</a></sup>) so people can call and denounce domestic abuse, child and elderly maltreatment etc. Among the several profiles available, one can see calls coming from LGBT people. There is data from 2011 to 2019 (only partially, as this year’s data covers only until June).</p>
 <p>I downloaded all data concerning LGBT people through <a href="https://www.gov.br/mdh/pt-br/acesso-a-informacao/ouvidoria/balanco-disque-100">this link</a>. The data tables are actually very complete, but all data is just the case counts in multiple categories (sex, age, location…). Because of this I was not able to get any insights from it, but I decided to organize it to make it easier for people to look at some trends.</p>
 <p>In order to do that, I developed a very simple <strong>Shiny</strong> application in <strong>R</strong>. You can see the result <a href="https://gerbortolotto.shinyapps.io/denuncialgbt/">here</a> (Portuguese only). Data is separated in tabs representing different complainant profiles. You can see how the cases increases or decreases for different Brazilian states in the past eight years.</p>
-<div style="text-align:center;">
-<p><a href="https://gerbortolotto.shinyapps.io/denuncialgbt/">
-<img src="https://gbortolotto.github.io/img/denuncia_ex.png" alt="no css">
-</a></p>
+<div class="figure">
+<img src="featured.png" alt="" />
+<p class="caption">App’s screenshot</p>
 </div>
 <p>I thought I could update this application as new data was released. However, the Brazilian government changed how this information would be released. Their last report sum up the cases in <a href="https://www.gov.br/mdh/pt-br/acesso-a-informacao/ouvidoria/Relatorio_Disque_100_2019_.pdf">a pdf file</a> and one can’t access the raw data as I did. If the government decides to releases open data, I will develop a new app and try to provide some kind of easily accessible platform. Until then and without new data I think this app will be just a snapshot of complaints made by LGBT people by middle 2019.</p>
 <p>All the data used in the development os this app can be found on my <a href="https://github.com/gbortolotto/lgbtapp">Github page</a> (the code needs some cleaning…) and only exists thanks to projects like <a href="https://www.shinyapps.io/">Shinyapps.io</a>.</p>
