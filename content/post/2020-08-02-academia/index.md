@@ -20,13 +20,13 @@ image:
   preview_only: true
 projects: []
 ---
-  
-Recently I have been in touch with my PhD advisor in order to [re]write some papers that I put on indefinite hiatus since I presented my thesis. I don't like the sensation of having unfinished work, so I decided to recover my old code and drafts.
+    
+    Recently I have been in touch with my PhD advisor in order to [re]write some papers that I put on indefinite hiatus since I presented my thesis. I don't like the sensation of having unfinished work, so I decided to recover my old code and drafts.
 
 During my master's in Astrophysics (2012-2014) I used mainly Python to write the code for the analysis of photos from an AllSky camera. It was really nice to discover how powerful Python was and to follow the development of libraries like Pandas and PyRaf (a wrapper around IRAF (Image Reduction and Analysis Facility) the very old and omnipresent software for astronomy). Astronomers are, in general, very good programmers and involved in software development.
 
 However, when I changed my research topic to statistical physics I entered a whole new world: FORTRAN code, computational clusters and legacy software. It was the norm at the time: in order to do your research you had to:
-
+    
 1. Try to understand your advisor's old code in an very deprecated version of the programming language he used;
 2. Try to build your own code but in a way that your advisor and colleagues could understand, e.g., don't using all that novel software that wasn't proven to be really useful.
 
