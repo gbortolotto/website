@@ -45,7 +45,7 @@ title: Germano Bortolotto
 
 My name is Germano and I have a PhD in Statistical Physics. I am currently working with data science.
 
-In the past I have worked with in different fields. During my master’s in Astrophysics I developed a software in Python to calculate at any instant the extinction coefficients during observation nights at a telescope.
+In the past I have worked in different fields. During my master’s in Astrophysics I developed a software in Python to calculate at any instant the extinction coefficients during observation nights at a telescope.
 
 My PhD was in computational neuroscience. I developed new methods to study synchronization, criticality and information processing in different neuronal networks, either biologically inspired or formal ones. My recent papers are listed on the Publication section on this website.
 
