@@ -12,7 +12,7 @@ tags:
   - tools
   - FORTRAN
 subtitle: ''
-summary: "When you realize you wasted some time during graduate school: there is much out there... Why don't you open yourself to it?"
+summary: "There is much out there... Why don't you open yourself to it?"
 featured: no
 image:
   caption: ''
