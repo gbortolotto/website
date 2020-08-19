@@ -208,6 +208,44 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-175136793-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-175136793-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
 
@@ -656,7 +694,7 @@
     
 
     <p>My name is Germano and I have a PhD in Statistical Physics. I am currently working with data science.</p>
-<p>In the past I have worked with in different fields. During my master’s in Astrophysics I developed a software in Python to calculate at any instant the extinction coefficients during observation nights at a telescope.</p>
+<p>In the past I have worked in different fields. During my master’s in Astrophysics I developed a software in Python to calculate at any instant the extinction coefficients during observation nights at a telescope.</p>
 <p>My PhD was in computational neuroscience. I developed new methods to study synchronization, criticality and information processing in different neuronal networks, either biologically inspired or formal ones. My recent papers are listed on the Publication section on this website.</p>
 <p>I am now focused on applying the skills I learned at academia on different problems on the “real world”, mostly using R and Python [and Matlab].</p>
 <p>I am also interested on civil and LGBTQIA+ rights and scientific education.</p>

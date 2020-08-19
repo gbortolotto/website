@@ -38,7 +38,7 @@ But then I faced other problems: I was the only one using Python. If I wanted to
 
 This seems to be a very common issue in academia: people stick to what they know and that is proven to work. There is not much incentive to try new things. There is no need to really optimize your code. You can always* use your department's computational cluster and leave your code running there for days or even weeks.
 
-I have been working in data science for two year now. It is unimaginable to wait for more than a couple of hours to see your code deliver some results. If you do not use updated packages or frameworks you will be losing time, money and, maybe, some clients.
+I have been working in data science for two years now. It is unimaginable to wait for more than a couple of hours to see your code deliver some results. If you do not use updated packages or frameworks you will be losing time, money and, maybe, some clients.
 
 It is necessary for the folks in universities to start to be more open to the idea of new technologies. Many programming languages offer powerful libraries and computational tools. Julia is one language to keep an eye on. You don't even need to abandon all that old code. There are wonderful libraries that provide a bridge between different languages, like [F2PY](https://numpy.org/doc/stable/f2py/) that allows one to run FORTRAN scripts using a Python interface, or Cython, that aims to do the same, this time with C.
 
