@@ -8,26 +8,26 @@
   contentDir = "content/en"  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
 
 # Uncomment the lines below to configure your website in a second language.
-[pt-br]
-  languageCode = "pt-br"
-  contentDir = "content/pt-br"
+[pt]
+  languageCode = "pt"
+  contentDir = "content/pt"
   title = "Germano Bortolotto"
-  [[pt-br.menu.main]]
+  [[pt.menu.main]]
     name = "Sobre"
     url = "sobre"
     weight = 10
 
-  [[pt-br.menu.main]]
+  [[pt.menu.main]]
     name = "Blog"
     url = "post"
     weight = 20
   
-  [[pt-br.menu.main]]
+  [[pt.menu.main]]
     name = "Publicações"
     url = "publicacoes"
     weight = 30
   
-  [[pt-br.menu.main]]
+  [[pt.menu.main]]
     name = "Projetos"
     url = "projetos"
     weight = 40
