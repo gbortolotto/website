@@ -1,7 +1,14 @@
 // Override this file to add your own SCSS styling.
-.navbar-nav li.nav-item a.nav-link {
-  height: inherit;
-  line-height: 50px;
-  padding-top: 10px;
-  padding-bottom: 50px;
-}
+.navbar {
+  height: 70px;
+  background: $sta-menu-primary;
+/* this is the part that takes out the shadow & the only edit */
+  box-shadow: none;  
+  font-size: 18px;
+  font-weight: 900 !important;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+  padding: 0 1rem;

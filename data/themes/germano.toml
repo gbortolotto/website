@@ -17,3 +17,6 @@ menu_title = "#eee"
 background = "#ffffff"
 home_section_odd = "#ffffff"
 home_section_even = "#ffffff"
+
+link = "#D90429"
+link_hover = "#118AB2"
