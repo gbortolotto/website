@@ -1,0 +1,48 @@
+---
+title: 'Brazilian LGBT complaints in the past decade'
+author: Germano Bortolotto
+date: '2020-06-21'
+slug: lgbt-app-post
+categories:
+  - shiny
+  - lgbt
+tags:
+  - lgbt
+  - shiny
+  - R
+summary: "A Shiny app based on 'Disque Denúncia' database"
+image:
+  preview_only: true
+---
+
+I finally decided to start writing on this website. It was something I wanted for a long time, but always delayed for multiple reasons. The start of the Coronavirus pandemic didn't help at all... :-)
+
+I hope to write every week about different subjects. Most of the posts will probably be some tutorials on Python, R, data science and software development as those are the things that keep me busy during the week. However, I might also write about human rights, education and research topics on neuroscience and physics. 
+
+For this first post I will present a small app I have been developing in the past few weeks. 
+
+In the beginning of this year I looked for data and information involving crimes against LGBT people in Brazil. It is said that we have one of the highest crime rates in the world<sup>[1](#References)</sup>, but I wanted to see the raw data and maybe try to have some insights when studying time series and correlated events on this subject. 
+
+I tried to contact some people from [Grupo Gay da Bahia](https://grupogaydabahia.com.br/) but I have never received an answer. I talked to some friends and learned that crimes against LGBT people are rarely registered in official documents in a regular manner. I ended up rummaging the federal government website, notably the "Ministry of Family and Human Rights" but found only their promises of providing updated and open access data on human rights in Brazil. In a page that is no longer accessible, it is said that strategies to be adopted for the opening, support, monitoring and promotion of their database would be produced with deadline for August 2019. 
+
+In fact, I contacted them on February asking for an update on this issue (the deadline was past for about six months), but after two months of waiting they only said that "all necessary information, schedules and databases to be used will soon be published". In other words: "we have been working for almost a year and still don't have anything planned".
+
+Anyway, during my time clicking around the Ministry's website I found that at least SOME information is public. The Brazilian government provides a help line (called **"Disque Denúncia"** or **"Disque Direitos Humanos"**<sup>[2](#References)</sup>) so people can call and denounce domestic abuse, child and elderly maltreatment etc. Among the several profiles available, one can see calls coming from LGBT people. There is data from 2011 to 2019 (only partially, as this year's data covers only until June). 
+
+I downloaded all data concerning LGBT people through [this link](https://www.gov.br/mdh/pt-br/acesso-a-informacao/ouvidoria/balanco-disque-100). The data tables are actually very complete, but all data is just the case counts in multiple categories (sex, age, location...). Because of this I was not able to get any insights from it, but I decided to organize it to make it easier for people to look at some trends.
+
+In order to do that, I developed a very simple **Shiny** application in **R**. You can see the result [here](https://gerbortolotto.shinyapps.io/denuncialgbt/) (Portuguese only). Data is separated in tabs representing different complainant profiles. You can see how the cases increases or decreases for different Brazilian states in the past eight years.
+
+![App's screenshot](featured.png)
+
+
+I thought I could update this application as new data was released. However, the Brazilian government changed how this information would be released. Their last report sum up the cases in [a pdf file](https://www.gov.br/mdh/pt-br/acesso-a-informacao/ouvidoria/Relatorio_Disque_100_2019_.pdf) and one can't access the raw data as I did. If the government decides to releases open data, I will develop a new app and try to provide some kind of easily accessible platform. Until then and without new data I think this app will be just a snapshot of complaints made by LGBT people by middle 2019.
+
+All the data used in the development os this app can be found on my [Github page](https://github.com/gbortolotto/lgbtapp) (the code needs some cleaning...) and only exists thanks to projects like [Shinyapps.io](https://www.shinyapps.io/).
+
+P.S.: I intend to write in English in this website, but I will probably translate the posts about this app as it concerns primarily the Brazilian LGBT population.
+
+## References
+
+1. [https://en.wikipedia.org/wiki/LGBT_rights_in_Brazil#Anti-LGBT_violence](https://en.wikipedia.org/wiki/LGBT_rights_in_Brazil#Anti-LGBT_violence)
+2. [https://www.gov.br/mdh/pt-br/acesso-a-informacao/ouvidoria/balanco-disque-100](https://www.gov.br/mdh/pt-br/acesso-a-informacao/ouvidoria/balanco-disque-100)
