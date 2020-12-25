@@ -8,10 +8,10 @@ light = true
 primary = "#ff0039"
 
 # Menu
-menu_primary = "#FFF"
-menu_text = "#333"
+menu_primary = "#000"
+menu_text = "#FFF"
 menu_text_active = "#ff0039"
-menu_title = "#333"
+menu_title = "#FFF"
 
 # Backgrounds
 background = "#ffffff"
