@@ -12,22 +12,26 @@
   languageCode = "pt-br"
   contentDir = "content/pt-br"
   title = "Germano Bortolotto"
-  [[pt-br.main]]
+  [[pt-br.menu.main]]
     name = "Sobre"
     url = "sobre"
     weight = 10
-  [[pt-br.main]]
+
+  [[pt-br.menu.main]]
     name = "Blog"
     url = "post"
     weight = 20
-  [[pt-br.main]]
+  
+  [[pt-br.menu.main]]
     name = "Publicações"
     url = "publicacoes"
     weight = 30
-  [[pt-br.main]]
+  
+  [[pt-br.menu.main]]
     name = "Projetos"
     url = "projetos"
     weight = 40
+
 #  [zh.params]
 #    description = "Site description in Chinese..."
 #  [[zh.menu.main]]
