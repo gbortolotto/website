@@ -2,7 +2,7 @@
 name = "germano"
 
 # Optional Google font URL
-google_fonts = "Open+Sans|Raleway:400,700|Roboto+Mono|Roboto:400"
+google_fonts = "Open+Sans|Raleway:400,700|Roboto+Mono|Roboto:350"
 
 # Font families
 heading_font = "Open Sans"
