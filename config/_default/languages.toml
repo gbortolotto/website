@@ -14,7 +14,7 @@
   title = "Germano Bortolotto"
   [[pt.menu.main]]
     name = "Sobre"
-    url = "sobre"
+    url = "about"
     weight = 10
 
   [[pt.menu.main]]
@@ -24,12 +24,12 @@
   
   [[pt.menu.main]]
     name = "Publicações"
-    url = "publicacoes"
+    url = "publications"
     weight = 30
   
   [[pt.menu.main]]
     name = "Projetos"
-    url = "projetos"
+    url = "projects"
     weight = 40
 
 #  [zh.params]
