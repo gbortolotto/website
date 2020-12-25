@@ -11,10 +11,27 @@
 [pt-br]
   languageCode = "pt-br"
   contentDir = "content/pt-br"
-  title = "Chinese website title..."
+  title = "Germano Bortolotto"
+  [[pt-br.main]]
+    name = "Sobre"
+    url = "sobre"
+    weight = 10
+  [[pt-br.main]]
+    name = "Blog"
+    url = "post"
+    weight = 20
+  [[pt-br.main]]
+    name = "Publicações"
+    url = "publicacoes"
+    weight = 30
+  [[pt-br.main]]
+    name = "Projetos"
+    url = "projetos"
+    weight = 40
 #  [zh.params]
 #    description = "Site description in Chinese..."
 #  [[zh.menu.main]]
 #    name = "Wo"
 #    url = "#about"
 #    weight = 1
+
