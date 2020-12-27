@@ -5,7 +5,7 @@
 
 [[main]]
   name = "Sobre"
-  url = "about"
+  url = "sobre"
   weight = 10
 
 [[main]]
@@ -20,7 +20,7 @@
 
 [[main]]
   name = "Projetos"
-  url = "projects"
+  url = "projetos"
   weight = 40
   
 # Link to a PDF of your resume/CV from the menu.
