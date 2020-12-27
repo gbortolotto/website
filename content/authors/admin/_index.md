@@ -2,16 +2,17 @@
 authors:
 - admin
 bio: Física, dados, software livre, direitos civis e ciência.
-courses:
-- course: Doutorado em Física Estatística
-  institution: Universidade Federal de Santa Catarina, Brasil
-  year: 2018
-- course: Mestrado em Astrofísica
-  institution: Universidade Federal de Santa Catarina, Brasil
-  year: 2014
-- course: Bacharelado em Física
-  institution: Universidade Federal de Santa Catarina, Brasil
-  year: 2012
+education:
+  courses:
+  - course: Doutorado em Física Estatística
+    institution: Universidade Federal de Santa Catarina, Brasil
+    year: 2018
+  - course: Mestrado em Astrofísica
+    institution: Universidade Federal de Santa Catarina, Brasil
+    year: 2014
+  - course: Bacharelado em Física
+    institution: Universidade Federal de Santa Catarina, Brasil
+    year: 2012
 email: ""
 organizations:
 - name: Mercos
