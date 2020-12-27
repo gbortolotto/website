@@ -1,25 +1,25 @@
 ---
 authors:
 - admin
-bio: Physics, data, free software, civil rights and science.
+bio: Física, dados, software livre, direitos civis e ciência.
 education:
   courses:
-  - course: PhD in Statistical Physics
-    institution: Federal University of Santa Catarina, Brazil
+  - course: Doutorado em Física Estatística
+    institution: Universidade Federal de Santa Catarina, Brasil
     year: 2018
-  - course: M.A. in Astrophysics
-    institution: Federal University of Santa Catarina, Brazil
+  - course: Mestrado em Astrofísica
+    institution: Universidade Federal de Santa Catarina, Brasil
     year: 2014
-  - course: BSc in Physics
-    institution: Federal University of Santa Catarina, Brazil
+  - course: Bacharelado em Física
+    institution: Universidade Federal de Santa Catarina, Brasil
     year: 2012
 email: ""
 organizations:
-- name: Meantrix
-  url: "https://meantrix.com/"
+- name: Mercos
+  url: "https://mercos.com/"
 - name: Nohs Somos
   url: "https://www.nohssomos.com.br/"
-role: Data Scientist
+role: Cientista e engenheiro de dados
 social:
 - icon: envelope
   icon_pack: fas
@@ -43,12 +43,12 @@ superuser: true
 title: Germano Bortolotto
 ---
 
-My name is Germano and I have a PhD in Statistical Physics. I am currently working with data science.
+Meu nome é Germano e tenho um doutorado em Física Estatística. Atualmente estou trabalhando com ciência de dados.
 
-In the past I have worked in different fields. During my master’s in Astrophysics I developed a software in Python to calculate at any instant the extinction coefficients during observation nights at a telescope.
+No passado, trabalhei em diferentes áreas. Durante meu mestrado em Astrofísica, desenvolvi um software em Python para calcular a qualquer instante os coeficientes de extinção durante as noites de observação em um telescópio.
 
-My PhD was in computational neuroscience. I developed new methods to study synchronization, criticality and information processing in different neuronal networks, either biologically inspired or formal ones. My recent papers are listed on the Publication section on this website.
+Meu doutorado foi em neurociência computacional. Desenvolvi novos métodos para estudar sincronização, criticalidade e processamento de informação em diferentes redes neuronais, tanto formais quanto inspiradas biologicamente. Meus artigos recentes estão listados na seção "Publicações" deste site.
 
-I am now focused on applying the skills I learned at academia on different problems on the “real world”, mostly using R and Python [and Matlab].
+Atualmente estou focado em aplicar as habilidades que aprendi na universidade em diferentes problemas do "mundo real", usando principalmente R e Python [e Matlab].
 
-I am also interested on civil and LGBTQIA+ rights and scientific education.
+Também estou interessado em direitos civis e LGBTQIA+ e educação científica.
