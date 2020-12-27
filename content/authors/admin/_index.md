@@ -2,17 +2,16 @@
 authors:
 - admin
 bio: Física, dados, software livre, direitos civis e ciência.
-educação:
-  courses:
-  - course: Doutorado em Física Estatística
-    institution: Universidade Federal de Santa Catarina, Brasil
-    year: 2018
-  - course: Mestrado em Astrofísica
-    institution: Universidade Federal de Santa Catarina, Brasil
-    year: 2014
-  - course: Bacharelado em Física
-    institution: Universidade Federal de Santa Catarina, Brasil
-    year: 2012
+courses:
+- course: Doutorado em Física Estatística
+  institution: Universidade Federal de Santa Catarina, Brasil
+  year: 2018
+- course: Mestrado em Astrofísica
+  institution: Universidade Federal de Santa Catarina, Brasil
+  year: 2014
+- course: Bacharelado em Física
+  institution: Universidade Federal de Santa Catarina, Brasil
+  year: 2012
 email: ""
 organizations:
 - name: Mercos
@@ -43,7 +42,7 @@ superuser: true
 title: Germano Bortolotto
 ---
 
-Olá, meu nome é Germano e tenho um doutorado em Física Estatística. Atualmente estou trabalhando com ciência de dados.
+Olá, meu nome é Germano e trabalho com ciência de dados.
 
 No passado, trabalhei em diferentes áreas. Durante meu mestrado em Astrofísica, desenvolvi um software em Python para calcular a qualquer instante os coeficientes de extinção durante as noites de observação em um telescópio.
 
