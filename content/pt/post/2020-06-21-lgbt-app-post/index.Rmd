@@ -1,5 +1,5 @@
 ---
-title: 'Denúncias LGBT na última década'
+title: 'Brazilian LGBT complaints in the past decade'
 author: Germano Bortolotto
 date: '2020-06-21'
 slug: lgbt-app-post
@@ -10,39 +10,39 @@ tags:
   - lgbt
   - shiny
   - R
-summary: "Um aplicativo em Shiny baseado nos dados do 'Disque Denúncia'"
+summary: "A Shiny app based on 'Disque Denúncia' database"
 image:
   preview_only: true
 ---
 
-Eu finalmente decidi começar a escrever neste site. Era algo que eu queria há muito tempo, mas sempre atrasava por vários motivos. O início da pandemia do Coronavirus não ajudou em nada ... :-)
+I finally decided to start writing on this website. It was something I wanted for a long time, but always delayed for multiple reasons. The start of the Coronavirus pandemic didn't help at all... :-)
 
-Espero escrever todas as semanas sobre diferentes assuntos. A maioria dos posts provavelmente serão alguns tutoriais sobre Python, R, ciência de dados e desenvolvimento de software, pois são essas coisas que me mantêm ocupado durante a semana. No entanto, também posso escrever sobre direitos humanos, educação e tópicos de pesquisa em neurociência e física.
+I hope to write every week about different subjects. Most of the posts will probably be some tutorials on Python, R, data science and software development as those are the things that keep me busy during the week. However, I might also write about human rights, education and research topics on neuroscience and physics. 
 
-Neste primeiro post apresentarei um pequeno aplicativo que venho desenvolvendo nas últimas semanas.
+For this first post I will present a small app I have been developing in the past few weeks. 
 
-No início deste ano busquei dados e informações envolvendo crimes contra pessoas LGBT no Brasil. Diz-se que temos uma das maiores taxas de criminalidade do mundo <sup>[1](# Referências)</sup>, mas eu queria ver os dados brutos e talvez tentar ter alguns insights ao estudar séries temporais e eventos correlacionados sobre este assunto.
+In the beginning of this year I looked for data and information involving crimes against LGBT people in Brazil. It is said that we have one of the highest crime rates in the world<sup>[1](#References)</sup>, but I wanted to see the raw data and maybe try to have some insights when studying time series and correlated events on this subject. 
 
-Tentei entrar em contato com algumas pessoas do [Grupo Gay da Bahia](https://grupogaydabahia.com.br/) mas nunca recebi uma resposta. Conversei com alguns amigos e descobri que crimes contra pessoas LGBT raramente são registrados em documentos oficiais de forma regular. Acabei vasculhando o site do governo federal, notadamente o “Ministério da Família e Direitos Humanos”, mas encontrei apenas suas promessas de disponibilizar dados atualizados e de acesso aberto sobre direitos humanos no Brasil. Em uma página que não está mais acessível, diz-se que as estratégias a serem adotadas para a abertura, suporte, monitoramento e divulgação de seu banco de dados seriam produzidas com prazo até agosto de 2019.
+I tried to contact some people from [Grupo Gay da Bahia](https://grupogaydabahia.com.br/) but I have never received an answer. I talked to some friends and learned that crimes against LGBT people are rarely registered in official documents in a regular manner. I ended up rummaging the federal government website, notably the "Ministry of Family and Human Rights" but found only their promises of providing updated and open access data on human rights in Brazil. In a page that is no longer accessible, it is said that strategies to be adopted for the opening, support, monitoring and promotion of their database would be produced with deadline for August 2019. 
 
-Na verdade, entrei em contato com eles em fevereiro pedindo uma atualização sobre este assunto (o prazo já expirou há cerca de seis meses), mas após dois meses de espera eles apenas disseram que "todas as informações necessárias, cronogramas e bancos de dados a serem utilizados serão em breve publicados". Ou seja: “estamos trabalhando há quase um ano e ainda não temos nada planejado”.
+In fact, I contacted them on February asking for an update on this issue (the deadline was past for about six months), but after two months of waiting they only said that "all necessary information, schedules and databases to be used will soon be published". In other words: "we have been working for almost a year and still don't have anything planned".
 
-De qualquer forma, durante meu tempo clicando no site do Ministério, descobri que pelo menos ALGUMAS informações são públicas. O governo brasileiro fornece uma linha de ajuda (chamada **"Disque Denúncia"** ou **"Disque Direitos Humanos"** <sup>[2](# Referências)</sup>) para que as pessoas possam ligar e denunciar abuso doméstico , maus-tratos a crianças e idosos etc. Dentre os diversos perfis disponíveis, é possível ver as ligações provenientes de pessoas LGBT. Existem dados de 2011 a 2019 (apenas parcialmente, pois os dados deste ano cobrem apenas até junho).
+Anyway, during my time clicking around the Ministry's website I found that at least SOME information is public. The Brazilian government provides a help line (called **"Disque Denúncia"** or **"Disque Direitos Humanos"**<sup>[2](#References)</sup>) so people can call and denounce domestic abuse, child and elderly maltreatment etc. Among the several profiles available, one can see calls coming from LGBT people. There is data from 2011 to 2019 (only partially, as this year's data covers only until June). 
 
-Baixei todos os dados da população LGBT [neste link](https://www.gov.br/mdh/pt-br/acesso-a-informacao/ouvidoria/balanco-disque-100). As tabelas de dados são realmente muito completas, mas todos os dados são apenas contagens de casos em várias categorias (sexo, idade, localização ...). Por causa disso, não consegui obter insights sobre ele, mas decidi organizá-lo para tornar mais fácil para as pessoas olharem para algumas tendências.
+I downloaded all data concerning LGBT people through [this link](https://www.gov.br/mdh/pt-br/acesso-a-informacao/ouvidoria/balanco-disque-100). The data tables are actually very complete, but all data is just the case counts in multiple categories (sex, age, location...). Because of this I was not able to get any insights from it, but I decided to organize it to make it easier for people to look at some trends.
 
-Para fazer isso, desenvolvi um aplicativo **Shiny** muito simples em **R**. Você pode ver o resultado [aqui](https://gerbortolotto.shinyapps.io/denuncialgbt/) (somente em português). Os dados são separados em guias que representam diferentes perfis de reclamantes. Você pode ver como os casos aumentaram ou diminuíram em diferentes estados brasileiros nos últimos oito anos.
+In order to do that, I developed a very simple **Shiny** application in **R**. You can see the result [here](https://gerbortolotto.shinyapps.io/denuncialgbt/) (Portuguese only). Data is separated in tabs representing different complainant profiles. You can see how the cases increases or decreases for different Brazilian states in the past eight years.
 
-![Captura de tela do aplicativo](featured.png)
+![App's screenshot](featured.png)
 
 
-Achei que poderia atualizar este aplicativo conforme novos dados fossem lançados. No entanto, o governo brasileiro mudou a forma como essas informações seriam divulgadas. O último relatório deles resume os casos em [um arquivo pdf](https://www.gov.br/mdh/pt-br/acesso-a-informacao/ouvidoria/Relatorio_Disque_100_2019_.pdf) e não é possível acessar os dados brutos como eu fiz. Se o governo decidir divulgar dados abertos, vou desenvolver um novo aplicativo e tentar fornecer algum tipo de plataforma de fácil acesso. Até lá e sem novos dados acho que este app será apenas um instantâneo das reclamações feitas por LGBT até meados de 2019.
+I thought I could update this application as new data was released. However, the Brazilian government changed how this information would be released. Their last report sum up the cases in [a pdf file](https://www.gov.br/mdh/pt-br/acesso-a-informacao/ouvidoria/Relatorio_Disque_100_2019_.pdf) and one can't access the raw data as I did. If the government decides to releases open data, I will develop a new app and try to provide some kind of easily accessible platform. Until then and without new data I think this app will be just a snapshot of complaints made by LGBT people by middle 2019.
 
-Todos os dados usados no desenvolvimento deste aplicativo podem ser encontrados na minha [página do Github](https://github.com/gbortolotto/lgbtapp) (o código precisa de uma limpeza, não repare ...) e só existe graças a projetos como [Shinyapps.io](https://www.shinyapps.io/).
+All the data used in the development os this app can be found on my [Github page](https://github.com/gbortolotto/lgbtapp) (the code needs some cleaning...) and only exists thanks to projects like [Shinyapps.io](https://www.shinyapps.io/).
 
-P.S .: Pretendo escrever em inglês neste site, mas provavelmente traduzirei as postagens sobre este aplicativo, pois ele diz respeito principalmente à população LGBT brasileira.
+P.S.: I intend to write in English in this website, but I will probably translate the posts about this app as it concerns primarily the Brazilian LGBT population.
 
-## Referências
+## References
 
 1. [https://en.wikipedia.org/wiki/LGBT_rights_in_Brazil#Anti-LGBT_violence](https://en.wikipedia.org/wiki/LGBT_rights_in_Brazil#Anti-LGBT_violence)
 2. [https://www.gov.br/mdh/pt-br/acesso-a-informacao/ouvidoria/balanco-disque-100](https://www.gov.br/mdh/pt-br/acesso-a-informacao/ouvidoria/balanco-disque-100)

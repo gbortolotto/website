@@ -1,5 +1,5 @@
 ---
-title: "Universisade X Mundo lá fora"
+title: "Academia X Mundo lá fora"
 author: Germano Bortolotto
 date: '2020-08-02'
 slug: academia-outside
@@ -12,7 +12,7 @@ tags:
   - tools
   - FORTRAN
 subtitle: ''
-summary: "Há tanta coisa no mundo lá fora... por que não se abrir a isso?"
+summary: "There is much out there... Why don't you open yourself to it?"
 featured: no
 image:
   caption: ''
@@ -20,30 +20,30 @@ image:
   preview_only: true
 projects: []
 ---
+  
+Recently I have been in touch with my PhD advisor in order to [re]write some papers that I put on indefinite hiatus since I presented my thesis. I don't like the sensation of having unfinished work, so I decided to recover my old code and drafts.
 
-Recentemente, estive em contato com meu orientador de doutorado para [re] escrever alguns trabalhos que coloquei em um hiato indefinido desde que apresentei minha tese. Não gosto da sensação de ter um trabalho inacabado, então decidi recuperar meu código e rascunhos antigos.
+During my master's in Astrophysics (2012-2014) I used mainly Python to write the code for the analysis of photos from an AllSky camera. It was really nice to discover how powerful Python was and to follow the development of libraries like Pandas and PyRaf (a wrapper around IRAF (Image Reduction and Analysis Facility) the very old and omnipresent software for astronomy). Astronomers are, in general, very good programmers and involved in software development.
 
-Durante meu mestrado em Astrofísica (2012-2014) usei principalmente Python para escrever o código para a análise de fotos de uma câmera AllSky. Foi muito bom descobrir o quão poderoso é o Python e acompanhar o desenvolvimento de bibliotecas como Pandas e PyRaf (um invólucro em torno do IRAF (Image Reduction and Analysis Facility), o software muito antigo e onipresente para astronomia). Astrônomos são, em geral, ótimos programadores e estão envolvidos no desenvolvimento de software.
+However, when I changed my research topic to statistical physics I entered a whole new world: FORTRAN code, computational clusters and legacy software. It was the norm at the time: in order to do your research you had to:
 
-No entanto, quando mudei meu tópico de pesquisa para física estatística, entrei em um mundo totalmente novo: código FORTRAN, clusters computacionais e software legado. Era a norma na época: para fazer sua pesquisa você tinha que:
+1. Try to understand your advisor's old code in an very deprecated version of the programming language he used;
+2. Try to build your own code but in a way that your advisor and colleagues could understand, e.g., don't using all that novel software that wasn't proven to be really useful.
 
-1. Tentar entender o código antigo de seu orientador em uma versão obsoleta da linguagem de programação que ele usava;
-2. Tentar construir seu próprio código, mas de uma forma que seu orientador e colegas pudessem entender, isto é, não usando todo aquele software recém lançado que ainda não provou ser realmente útil.
+In my first year of my Phd I was struggling to get a working version of some FORTRAN 77 code. I had to understand how to simulate neuronal spikes using map equations. It involved the study of different concepts in dynamical systems like bifurcation, chaos and Lyapunov exponents. Soon I realized I didn't want to write a thesis on these subjects using FORTRAN 77. I wanted to use new tools and methods. My team was starting to use MATLAB for some computations and soon I joined them.
 
-No meu primeiro ano de doutorado, estava lutando para obter uma versão funcional de algum código FORTRAN 77. Tive que entender como simular picos neuronais usando equações de mapa. Envolveu o estudo de diferentes conceitos em sistemas dinâmicos como bifurcação, caos e expoentes de Lyapunov. Logo percebi que não queria escrever uma tese sobre esses assuntos usando FORTRAN 77. Eu queria usar novas ferramentas e métodos. Meu grupo de pesquisa estava começando a usar o MATLAB para alguns cálculos e logo me juntei a eles.
+MATLAB is really powerful. You can do a great job when using matrices and numerical calculations. If your code is slow you can easily transform code chunks and functions into C code. Plotting is easy and the result is pleasant. However, it is not practical, specially for poor students and research teams. MATLAB's license is very expensive and the language is not open source. Many people turn to Octave, MATLAB's free cousin. I went back to Python.
 
-O MATLAB é realmente poderoso. Você pode fazer um ótimo trabalho ao usar matrizes e cálculos numéricos. Se o seu código for lento, você pode transformar facilmente pedaços de código e funções em código C. Plotar é fácil e o resultado é agradável. No entanto, o software em si não é prático, especialmente para alunos e grupos de pesquisa sem recursos. A licença do MATLAB é muito cara e a linguagem não é open source. Muitas pessoas recorrem ao Octave, primo opensource de MATLAB. Voltei para Python.
+But then I faced other problems: I was the only one using Python. If I wanted to reproduce some of my colleagues' code, I had to rewrite them. And how to convince your advisor that you could actually DO science with a programming language different from the ones they are used to?
 
-Mas então eu enfrentei outros problemas: eu era o único usando Python. Se eu quisesse reproduzir alguns códigos de meus colegas, teria que reescrevê-los. E como convencer seu orientador de que você pode realmente FAZER ciência com uma linguagem de programação diferente das que está acostumado?
+This seems to be a very common issue in academia: people stick to what they know and that is proven to work. There is not much incentive to try new things. There is no need to really optimize your code. You can always* use your department's computational cluster and leave your code running there for days or even weeks.
 
-Este parece ser um problema muito comum na universidade: as pessoas se apegam ao que sabem e isso está comprovado que funciona. Não há muito incentivo para tentar coisas novas. Não há necessidade de realmente otimizar seu código. Você sempre pode * usar o cluster computacional de seu departamento e deixar seu código rodando lá por dias ou até semanas.
+I have been working in data science for two years now. It is unimaginable to wait for more than a couple of hours to see your code deliver some results. If you do not use updated packages or frameworks you will be losing time, money and, maybe, some clients.
 
-Trabalho com ciência de dados há dois anos. É inimaginável esperar mais do que algumas horas para ver o seu código entregar alguns resultados. Se você não usar pacotes ou frameworks atualizados, estará perdendo tempo, dinheiro e, talvez, alguns clientes.
+It is necessary for the folks in universities to start to be more open to the idea of new technologies. Many programming languages offer powerful libraries and computational tools. Julia is one language to keep an eye on. You don't even need to abandon all that old code. There are wonderful libraries that provide a bridge between different languages, like [F2PY](https://numpy.org/doc/stable/f2py/) that allows one to run FORTRAN scripts using a Python interface, or Cython, that aims to do the same, this time with C.
 
-É necessário que o pessoal da universidade comece a se abrir mais para a ideia das novas tecnologias. Muitas linguagens de programação oferecem bibliotecas e ferramentas computacionais poderosas. Julia é uma língua para ficar de olho. Você nem precisa abandonar todo aquele código antigo. Existem bibliotecas maravilhosas que fornecem uma ponte entre diferentes linguagens, como [F2PY](https://numpy.org/doc/stable/f2py/) que permite executar scripts FORTRAN usando uma interface Python, ou Cython, que visa fazer o mesmo, desta vez com C.
+There are lots of different computational resources available as well. Amazon Web Services (AWS), Microsoft Azure and Google Cloud offer virtual machines and databases that are really easy to use and configure. There are different paying options and student and academic discounts.
 
-Também existem muitos recursos computacionais diferentes disponíveis. Amazon Web Services (AWS), Microsoft Azure e Google Cloud oferecem máquinas virtuais e bancos de dados que são realmente fáceis de usar e configurar. Existem diferentes opções de pagamento e descontos para estudantes e acadêmicos.
+However, I need to make an statement in favor of open source software. If you are a scientist, it is often not recommended to depend on paid resources to do your research. Your grant can be reduced or suspended, the price could go up etc. So look for open initiatives and why not start contributing to them? Sharing knowledge, work and tools might improve your contact network and maybe allow your research to be harder, better, faster, stronger.
 
-No entanto, preciso fazer uma declaração a favor do software de código aberto. Se você é um cientista, muitas vezes não é recomendado depender de recursos pagos para fazer sua pesquisa. A sua bolsa pode ser reduzida ou suspensa, o preço pode subir, etc. Portanto, procure iniciativas abertas e por que não começar a contribuir para elas? Compartilhar conhecimento, trabalho e ferramentas pode melhorar sua rede de contatos e talvez permitir que sua pesquisa seja mais avançada, melhor e mais rápida.
-
-\* _Quando esse cluster está ativo e em execução, o que nem sempre é o caso, é claro._
+\* _When that cluster is on and running, which is not always the case, of course._
