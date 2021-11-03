@@ -1,25 +1,25 @@
 ---
 authors:
 - admin
-bio: Física, dados, software livre, direitos civis e ciência.
+bio: Physics, data, free software, civil rights and science.
 education:
   courses:
-  - course: Doutorado em Física Estatística
-    institution: Universidade Federal de Santa Catarina, Brasil
+  - course: PhD in Statistical Physics
+    institution: Federal University of Santa Catarina, Brazil
     year: 2018
-  - course: Mestrado em Astrofísica
-    institution: Universidade Federal de Santa Catarina, Brasil
+  - course: M.A. in Astrophysics
+    institution: Federal University of Santa Catarina, Brazil
     year: 2014
-  - course: Bacharelado em Física
-    institution: Universidade Federal de Santa Catarina, Brasil
+  - course: BSc in Physics
+    institution: Federal University of Santa Catarina, Brazil
     year: 2012
 email: ""
 organizations:
-- name: Mercos
-  url: "https://mercos.com/"
+- name: Meantrix
+  url: "https://meantrix.com/"
 - name: Nohs Somos
   url: "https://www.nohssomos.com.br/"
-role: Cientista e engenheiro de dados
+role: Data Scientist
 social:
 - icon: envelope
   icon_pack: fas
@@ -43,12 +43,12 @@ superuser: true
 title: Germano Bortolotto
 ---
 
-Meu nome é Germano e tenho um doutorado em Física Estatística. Atualmente estou trabalhando com ciência de dados.
+My name is Germano and I have a PhD in Statistical Physics. I am currently working with data science.
 
-No passado, trabalhei em diferentes áreas. Durante meu mestrado em Astrofísica, desenvolvi um software em Python para calcular a qualquer instante os coeficientes de extinção durante as noites de observação em um telescópio.
+In the past I have worked in different fields. During my master’s in Astrophysics I developed a software in Python to calculate at any instant the extinction coefficients during observation nights at a telescope.
 
-Meu doutorado foi em neurociência computacional. Desenvolvi novos métodos para estudar sincronização, criticalidade e processamento de informação em diferentes redes neuronais, tanto formais quanto inspiradas biologicamente. Meus artigos recentes estão listados na seção "Publicações" deste site.
+My PhD was in computational neuroscience. I developed new methods to study synchronization, criticality and information processing in different neuronal networks, either biologically inspired or formal ones. My recent papers are listed on the Publication section on this website.
 
-Atualmente estou focado em aplicar as habilidades que aprendi na universidade em diferentes problemas do "mundo real", usando principalmente R e Python [e Matlab].
+I am now focused on applying the skills I learned at academia on different problems on the “real world”, mostly using R and Python [and Matlab].
 
-Também estou interessado em direitos civis e LGBTQIA+ e educação científica.
+I am also interested on civil and LGBTQIA+ rights and scientific education.
