@@ -1,5 +1,5 @@
 ---
-title: "Universidade X Mundo lá fora"
+title: "Universisade X Mundo lá fora"
 author: Germano Bortolotto
 date: '2020-08-02'
 slug: academia-outside

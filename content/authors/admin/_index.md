@@ -2,7 +2,7 @@
 authors:
 - admin
 bio: Física, dados, software livre, direitos civis e ciência.
-educação:
+education:
   courses:
   - course: Doutorado em Física Estatística
     institution: Universidade Federal de Santa Catarina, Brasil
@@ -43,7 +43,7 @@ superuser: true
 title: Germano Bortolotto
 ---
 
-Olá, meu nome é Germano e tenho um doutorado em Física Estatística. Atualmente estou trabalhando com ciência de dados.
+Meu nome é Germano e tenho um doutorado em Física Estatística. Atualmente estou trabalhando com ciência de dados.
 
 No passado, trabalhei em diferentes áreas. Durante meu mestrado em Astrofísica, desenvolvi um software em Python para calcular a qualquer instante os coeficientes de extinção durante as noites de observação em um telescópio.
 
