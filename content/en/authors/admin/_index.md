@@ -15,8 +15,8 @@ education:
     year: 2012
 email: ""
 organizations:
-- name: Meantrix
-  url: "https://meantrix.com/"
+- name: Mercos
+  url: "https://mercos.com/"
 - name: Nohs Somos
   url: "https://www.nohssomos.com.br/"
 role: Data Scientist
