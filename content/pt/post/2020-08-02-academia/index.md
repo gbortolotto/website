@@ -1,0 +1,49 @@
+---
+title: "Academia X Mundo lá fora"
+author: Germano Bortolotto
+date: '2020-08-02'
+slug: academia-outside
+categories:
+  - academia
+  - tools
+tags:
+  - academia
+  - open source
+  - tools
+  - FORTRAN
+subtitle: ''
+summary: "There is much out there... Why don't you open yourself to it?"
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: true
+projects: []
+---
+    
+    Recently I have been in touch with my PhD advisor in order to [re]write some papers that I put on indefinite hiatus since I presented my thesis. I don't like the sensation of having unfinished work, so I decided to recover my old code and drafts.
+
+During my master's in Astrophysics (2012-2014) I used mainly Python to write the code for the analysis of photos from an AllSky camera. It was really nice to discover how powerful Python was and to follow the development of libraries like Pandas and PyRaf (a wrapper around IRAF (Image Reduction and Analysis Facility) the very old and omnipresent software for astronomy). Astronomers are, in general, very good programmers and involved in software development.
+
+However, when I changed my research topic to statistical physics I entered a whole new world: FORTRAN code, computational clusters and legacy software. It was the norm at the time: in order to do your research you had to:
+    
+1. Try to understand your advisor's old code in an very deprecated version of the programming language he used;
+2. Try to build your own code but in a way that your advisor and colleagues could understand, e.g., don't using all that novel software that wasn't proven to be really useful.
+
+In my first year of my Phd I was strugging to get a working version of some FORTRAN 77 code. I had to understand how to simulate neuronal spikes using map equations. It involved the study of different concepts in dynamical systems like bifurcation, chaos and Lyapunov exponents. Soon I realized I didn't want to write a thesis on these subjects using FORTRAN 77. I wanted to use new tools and methods. My team was starting to use MATLAB for some computations and soon I joined them.
+
+MATLAB is really powerful. You can do a great job when using matrices and numerical calculations. If your code is slow you can easily transform code chunks and functions into C code. Plotting is easy and the result is pleasant. However, it is not practical, specially for poor students and research teams. MATLAB's license is very expensive and the language is not open source. Many people turn to Octave, MATLAB's free cousin. I went back to Python.
+
+But then I faced other problems: I was the only one using Python. If I wanted to reproduce some of my colleagues' code, I had to rewrite them. And how to convince your advisor that you could actually DO science with a programming language different from the ones they are used to?
+
+This seems to be a very common issue in academia: people stick to what they know and that is proven to work. There is not much incentive to try new things. There is no need to really optimize your code. You can always* use your department's computational cluster and leave your code running there for days or even weeks.
+
+I have been working in data science for two year now. It is unimaginable to wait for more than a couple of hours to see your code deliver some results. If you do not use updated packages or frameworks you will be losing time, money and, maybe, some clients.
+
+It is necessary for the folks in universities to start to be more open to the idea of new technologies. Many programming languages offer powerful libraries and computational tools. Julia is one language to keep an eye on. You don't even need to abandon all that old code. There are wonderful libraries that provide a bridge between different languages, like [F2PY](https://numpy.org/doc/stable/f2py/) that allows one to run FORTRAN scripts using a Python interface, or Cython, that aims to do the same, this time with C.
+
+There are lots of different computational resources available as well. Amazon Web Services (AWS), Microsoft Azure and Google Cloud offer virtual machines and databases that are really easy to use and configure. There are different paying options and student and academic discounts.
+
+However, I need to make an statement in favor of open source software. If you are a scientist, it is often not recommended to depend on paid resources to do your research. Your grant can be reduced or suspended, the price could go up etc. So look for open initiatives and why not start contributing to them? Sharing knowledge, work and tools might improve your contact network and maybe allow your research to be harder, better, faster, stronger.
+
+\* _When that cluster is on and running, which is not always the case, of course._
